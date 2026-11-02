@@ -1,0 +1,6 @@
+# Copy this template to a private location outside version control.
+# Use forward slashes in file paths, including on Windows.
+storeFile=/absolute/private/path/tellawy-release.jks
+storePassword=YOUR_LOCAL_KEYSTORE_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+keyPassword=YOUR_LOCAL_KEY_PASSWORD
