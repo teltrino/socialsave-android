@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
+<rect width="1600" height="2000" fill="#F5F6EF"/>
+<text x="80" y="59" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#137D70" dominant-baseline="text-before-edge">SOCIALSAVE / ANDROID ARCHITECTURE</text>
+<text x="76" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">yt-dlp + FFmpeg.</text>
+<text x="76" y="213" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Running on Android.</text>
+<text x="80" y="319" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">On-device processing, coordinated by Kotlin.</text>
+<rect x="64" y="391" width="1472" height="1410" rx="36" fill="#FFFFFF" stroke="#D1DCD1" stroke-width="2"/>
+<text x="108" y="421" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" fill="#587168" dominant-baseline="text-before-edge">ON THE ANDROID DEVICE</text>
+<rect x="1250" y="410" width="240" height="48" rx="24" fill="#D8EB9F" stroke="none" stroke-width="2"/>
+<text x="1269" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Android 12+</text>
+<rect x="112" y="488" width="1376" height="134" rx="24" fill="#173D36" stroke="none" stroke-width="2"/>
+<text x="144" y="507" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">Kotlin UI + Android share sheet</text>
+<text x="146" y="569" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="400" fill="#D7E9DE" dominant-baseline="text-before-edge">MainActivity · receive a link, choose MP4 / MP3, start work</text>
+<polyline points="800,622 800,660 342,660 342,706" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="342.0,706.0 334.6,691.8 349.4,691.8" fill="#137D70"/>
+<polyline points="800,660 1074,660 1074,706" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1074.0,706.0 1066.6,691.8 1081.4,691.8" fill="#137D70"/>
+<text x="122" y="666" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#137D70" dominant-baseline="text-before-edge">PREVIEW</text>
+<text x="672" y="666" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#137D70" dominant-baseline="text-before-edge">DOWNLOAD</text>
+<rect x="112" y="706" width="460" height="220" rx="24" fill="#E6F1E8" stroke="none" stroke-width="2"/>
+<text x="142" y="728" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">LinkPreview</text>
+<text x="142" y="788" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Local cache (24 h)</text>
+<text x="142" y="831" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">YouTube oEmbed request</text>
+<text x="142" y="874" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Extractor fallback</text>
+<rect x="660" y="706" width="828" height="140" rx="24" fill="#D8EB9F" stroke="none" stroke-width="2"/>
+<text x="694" y="729" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Foreground service</text>
+<text x="696" y="792" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">DownloadService · progress notifications</text>
+<polyline points="1074,846 1074,932" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1074.0,932.0 1066.6,917.8 1081.4,917.8" fill="#137D70"/>
+<rect x="660" y="932" width="828" height="140" rx="24" fill="#FFFFFF" stroke="#137D70" stroke-width="3"/>
+<text x="694" y="955" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Engine coordinator</text>
+<text x="696" y="1018" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Initialize runtimes · serialize active operations</text>
+<polyline points="572,816 613,816 613,997 660,997" fill="none" stroke="#137D70" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="660.0,997.0 645.8,1004.4 645.8,989.6" fill="#137D70"/>
+<text x="118" y="957" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Fallback → shared engine</text>
+<polyline points="1074,1072 1074,1158" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1074.0,1158.0 1066.6,1143.8 1081.4,1143.8" fill="#137D70"/>
+<rect x="660" y="1158" width="828" height="166" rx="24" fill="#173D36" stroke="none" stroke-width="2"/>
+<text x="694" y="1180" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" dominant-baseline="text-before-edge">yt-dlp + Python + QuickJS</text>
+<text x="696" y="1241" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="400" fill="#D7E9DE" dominant-baseline="text-before-edge">Embedded through youtubedl-android</text>
+<text x="696" y="1284" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#D7E9DE" dominant-baseline="text-before-edge">Media extraction · JS challenges when needed</text>
+<polyline points="1074,1324 1074,1411" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1074.0,1411.0 1066.6,1396.8 1081.4,1396.8" fill="#137D70"/>
+<rect x="112" y="1098" width="460" height="294" rx="24" fill="#F5F6EF" stroke="#D1DCD1" stroke-width="2"/>
+<text x="140" y="1121" font-family="Segoe UI, Arial, sans-serif" font-size="33" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Background updater</text>
+<text x="142" y="1181" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Check official releases</text>
+<text x="142" y="1225" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Download + SHA-256</text>
+<text x="142" y="1269" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Wait for active operation</text>
+<text x="142" y="1313" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Atomic engine install</text>
+<polyline points="572,1226 635,1226 635,1034 660,1034" fill="none" stroke="#A57933" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polygon points="660.0,1034.0 645.8,1041.4 645.8,1026.6" fill="#A57933"/>
+<text x="118" y="1412" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Network I/O stays outside</text>
+<text x="118" y="1447" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">the engine operation lock.</text>
+<rect x="660" y="1411" width="828" height="132" rx="24" fill="#E6F1E8" stroke="none" stroke-width="2"/>
+<text x="694" y="1433" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">FFmpeg</text>
+<text x="696" y="1494" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Merge / remux video · convert audio to MP3</text>
+<polyline points="1074,1543 1074,1602" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="1074.0,1602.0 1066.6,1587.8 1081.4,1587.8" fill="#137D70"/>
+<rect x="660" y="1602" width="828" height="108" rx="22" fill="#FFFFFF" stroke="#D1DCD1" stroke-width="2"/>
+<text x="694" y="1621" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">Private staging → MediaStore</text>
+<text x="696" y="1671" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Publish completed files to Downloads</text>
+<polyline points="124,1551 203,1551" fill="none" stroke="#137D70" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="203.0,1551.0 188.8,1558.4 188.8,1543.6" fill="#137D70"/>
+<text x="219" y="1533" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Execution flow</text>
+<polyline points="124,1613 203,1613" fill="none" stroke="#A57933" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<polygon points="203.0,1613.0 188.8,1620.4 188.8,1605.6" fill="#A57933"/>
+<text x="219" y="1595" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Verified install</text>
+<rect x="112" y="1731" width="388" height="48" rx="24" fill="#E6F1E8" stroke="none" stroke-width="2"/>
+<text x="131" y="1741" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#173D36" dominant-baseline="text-before-edge">One active download</text>
+<text x="660" y="1740" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Foreground work · private staging · scoped storage</text>
+<text x="80" y="1843" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#137D70" dominant-baseline="text-before-edge">EXTERNAL SERVICES</text>
+<text x="80" y="1887" font-family="Segoe UI, Arial, sans-serif" font-size="31" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">Media websites · YouTube oEmbed · GitHub releases</text>
+<text x="80" y="1930" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Processing stays on the phone. Media and updates come from external services.</text>
+<text x="80" y="1964" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#173D36" dominant-baseline="text-before-edge">github.com/teltrino/socialsave-android</text>
+<text x="1230" y="1964" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="400" fill="#587168" dominant-baseline="text-before-edge">Runtime overview</text>
+</svg>

@@ -1,6 +1,15 @@
 # Architecture
 
-Tellawy downloader is a native Kotlin Android app. It runs extraction and media processing on the device, without an application backend.
+SocialSave for Android (distributed as Tellawy downloader) is a native Kotlin app. Extraction and media processing run on the device, without an application backend. Media websites, YouTube oEmbed, and GitHub releases remain external services.
+
+![SocialSave runtime architecture: Kotlin UI and cached previews, foreground download service, embedded yt-dlp/Python/QuickJS through youtubedl-android, FFmpeg processing, private staging and MediaStore, and verified engine updates.](images/socialsave-runtime.png)
+
+[Full-size PNG](images/socialsave-runtime.png) · [Editable SVG](images/socialsave-runtime.svg)
+
+The diagram shows the runtime boundaries and execution flow. The updater downloads outside the engine lock; verified installation waits for an active engine operation to finish.
+
+<details>
+<summary>Text-based flow (Mermaid)</summary>
 
 ```mermaid
 flowchart TD
@@ -18,6 +27,8 @@ flowchart TD
     MediaStore --> Downloads[Downloads / Tellawy downloader]
     Update[Background engine update check] -->|Verified atomic installation| Engine
 ```
+
+</details>
 
 | Component | Responsibility |
 | --- | --- |
